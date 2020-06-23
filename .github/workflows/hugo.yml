@@ -29,12 +29,6 @@ jobs:
       with:
         hugo-version: '0.72.0'
         extended: true
-        
-    - name: Foo 1
-      run: ls
-
-    - name: Foo 2
-      run: pwd
 
     - name: Build
       run: hugo --minify
