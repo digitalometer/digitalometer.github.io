@@ -1,19 +1,19 @@
 baseURL = "/"
-languageCode = "en-us"
-title = "Hugo Hero Theme"
+languageCode = "de"
+title = "Digitalometer"
 themesDir = "themes"
-theme = "hugo-hero-theme"
+theme = "digitalometer-theme"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "Digitalometer hilft ihr Unternehmen zu digitalisieren, ohne Stellen zu schaffen. Schritt für Schritt"
+    meta_og_title = "Digitaometer - Wie digital ist Ihr Unternehmen?"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.com"
+    meta_og_url = "https://digitalometer.info"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_description = "Digitaometer - Wie digital ist Ihr Unternehmen?"
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
@@ -24,17 +24,17 @@ theme = "hugo-hero-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Test"
+    url = "/test/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
+    name = "Über uns"
     url = "/about/"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "Kontakt"
     url = "/contact/"
     weight = 4
 
