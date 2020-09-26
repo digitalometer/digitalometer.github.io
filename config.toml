@@ -19,24 +19,14 @@ theme = "digitalometer-theme"
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
-    weight = 1
-
-[[menu.main]]
     name = "Test"
-    url = "/test/"
-    weight = 2
-
-[[menu.main]]
-    name = "Über uns"
-    url = "/about/"
-    weight = 3
+    url = "https://itconsense.typeform.com/to/USa1BD"
+    weight = 1
 
 [[menu.main]]
     name = "Kontakt"
     url = "/contact/"
-    weight = 4
+    weight = 2
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
